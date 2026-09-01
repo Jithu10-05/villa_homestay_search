@@ -1,0 +1,32 @@
+name: villa_homestay_search
+description: "Villa Homestay Search - a modern villa & homestay search experience built with Flutter and Riverpod (mock data)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management - single source of truth for the search criteria.
+  flutter_riverpod: ^2.6.1
+  # Date formatting for the calendar and search summaries.
+  intl: ^0.20.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Bundled illustrations used as offline fallbacks for the remote photos.
+  assets:
+    - assets/images/
